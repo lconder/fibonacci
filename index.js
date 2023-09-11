@@ -7,6 +7,7 @@ app.use(express.json({ limit: "40mb" }));
 app.use(express.urlencoded({ extended: false, limit: "150mb" }));
 app.disable("x-powered-by");
 app.use(routes);
+require("./docs/docs")(app);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
