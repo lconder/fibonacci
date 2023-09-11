@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/lconder/fibonacci#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
